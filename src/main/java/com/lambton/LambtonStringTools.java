@@ -43,7 +43,7 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
-        String init ;
+        String init  = new String();
 
 
         return null;
@@ -51,7 +51,8 @@ public class LambtonStringTools
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static String mostFrequent(String s)
-        String str[];
+        String str[] = new String[];
+
 
         for (int i = 0; i < str.length(); i++)
         {
