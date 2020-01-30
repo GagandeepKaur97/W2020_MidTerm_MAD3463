@@ -44,7 +44,6 @@ public class LambtonStringTools
     public static String initials(String s) 
     {
         String init ;
-        for(int i =  )
 
 
         return null;
