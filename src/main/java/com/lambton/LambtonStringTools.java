@@ -13,14 +13,22 @@ public class LambtonStringTools
 {
     //1 - REVERSE STRING
     public static String reverse(String s)
-    {
+    { String line[]= s.split("");
+ String [] temp;
+ for( int i =line.length-1;i>=0;i--  ) {
+     temp [i]= line[i];
+     System.out.println(temp[i]); }
 
-        return null;
-    }
+        {
+        return null;}
+
     
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
+        String init ;
+        for( )
+
 
         return null;
     }

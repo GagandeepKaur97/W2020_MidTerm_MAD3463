@@ -9,7 +9,7 @@ package com.lambton;
  *
  * @author Pritesh Patel
  */
-public class MidTerm_WMAD3464_Code {
+public class c0768688 {
 
     public static void main(String[] args) 
     {
