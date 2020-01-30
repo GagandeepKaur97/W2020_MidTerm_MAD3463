@@ -56,7 +56,7 @@ public class LambtonStringTools
 
         for (int i = 0; i < str.length(); i++)
         {
-            char ch = str.(i);
+            char ch = str.(j);
 
             for (int j = i + 1; j < str.length(); j++)
             {
