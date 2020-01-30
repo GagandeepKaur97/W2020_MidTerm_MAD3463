@@ -5,6 +5,8 @@
  */
 package com.lambton;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Pritesh Patel
@@ -12,42 +14,92 @@ package com.lambton;
 public class LambtonStringTools 
 {
     //1 - REVERSE STRING
-    public static String reverse(String s)
-    { String line[]= s.split("");
- String [] temp;
- for( int i =line.length-1;i>=0;i--  ) {
-     temp [i]= line[i];
-     System.out.println(temp[i]); }
+    public static String reverse(String s){
+    char[] ch = s.toCharArray();
+    String reversestr = "";
+    String word = "";
+    ArrayList<String> stringarray = new ArrayList<>();
+        for (int i = 0; i < ch.length ; i++) {
+    if(ch[i] != ' '){
+        word = word + ch[i];
+    }
+    if (ch[i] == ' '){
+        stringarray.add(word);
+        word = "";
+    }
+}
+        for (int i = stringarray.size() - 1; i >= 0 ; i--) {
+    reversestr = reversestr + stringarray.get(i) + " ";
+}{
+       return null;
+}
+    //public static void main(String[] args) {
+     //   System.out.println(reverse("faliure will never overtake me if my determination to suceed is srtong enough "));
 
-        {
-        return null;}
+
+
 
     
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
         String init ;
-        for( )
+        for(int i =  )
 
 
         return null;
     }
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
-    public static String mostFrequent(String s) 
-    {
+    public static String mostFrequent(String s)
+        String str[];
+
+        for (int i = 0; i < str.length(); i++)
+        {
+            char ch = str.(i);
+
+            for (int j = i + 1; j < str.length(); j++)
+            {
+                char ch1 = str.charAt(j);
+
+                if (ch != ch1)
+                {
+                    count++;
+                }
+            }
+
+            if (count > temp)
+            {
+                temp = count;
+                maxchar[current] = ch;
+                current++;
+            }
+        }
         return null;
     }
     
     //4 - CONVERT BINARY NUMBER TO DECIMALS
     public static int binaryToDecimal(String s) 
-    {
+    {  int decimal;
+        for (int i = 0; i < s.length() ; i++) {
+        }
+        decimal = Integer.parseInt(s,2);
+        return decimal;
+    }
+    public static int main(String[] args) {
+        System.out.println(reverse("faliure will never overtake me if my determination to suceed is srtong enough "));
+        System.out.println("decimal number is " + binaryToDecimal("1000"));
+        System.out.println("decimal number is " + binaryToDecimal("10001"));
+        System.out.println("decimal number is " + binaryToDecimal("111111"));
+   {
+
        return 0;
     }
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
+        String str[]= new String[];
         return null;
     }
 }
