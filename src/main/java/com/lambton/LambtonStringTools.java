@@ -43,7 +43,46 @@ public class LambtonStringTools
     //2 - FORMAT INITIALS OF STRING
     public static String initials(String s) 
     {
-        String init  = new String();
+        char[] ch = s.toCharArray();
+        String reversestr = "";
+        String word = "";
+        String initial = "";
+        ArrayList<String> stringarray = new ArrayList<>();
+        for (int i = 0; i < ch.length ; i++) {
+            if(ch[i] != ' '){
+                word = word + ch[i];
+            }
+            if (ch[i] == ' '){
+                stringarray.add(word);
+                word = "";
+            }
+        }
+        if (stringarray.size() == 3){
+            word = "";
+            for (int i = 0; i <stringarray.size() ; i++) {
+                word = stringarray.get(i);
+                if (i == 2){
+                    initial = initial + word;
+                }
+                else {
+                    initial = initial + word.charAt(0) + ". ";
+                }
+                word = "";
+            }
+            return initial;
+        }else {
+            return null;
+        }
+    }
+       /* public static void main(String[] args) {
+            System.out.println(reverse("faliure will never overtake me if my determination to suceed is srtong enough "));
+            System.out.println("decimal number is " + binaryToDecimal("1000"));
+            System.out.println("decimal number is " + binaryToDecimal("10001"));
+            System.out.println("decimal number is " + binaryToDecimal("111111"));
+            System.out.println("initials  " + initials("James tiBeriUs kiRK "));
+        }*/
+    }
+
 
 
         return null;
@@ -51,15 +90,50 @@ public class LambtonStringTools
         
     //3 - FIND MOST FREQUENT CHARACTER FROM STRING
     public static String mostFrequent(String s)
-
-
-
-        for (int i = 0; i < str.length(); i++)
         {
-            char ch = str.(i);
+        char[] ch = s.toCharArray();
+        String reversestr = "";
+        String word = "";
+        String initial = "";
+        ArrayList<String> stringarray = new ArrayList<>();
+        for (int i = 0; i < ch.length ; i++) {
+            if(ch[i] != ' '){
+                word = word + ch[i];
+            }
+            if (ch[i] == ' '){
+                stringarray.add(word);
+                word = "";
+            }
+        }
+        if (stringarray.size() == 3){
+            word = "";
+            for (int i = 0; i <stringarray.size() ; i++) {
+                word = stringarray.get(i);
+                if (i == 2){
+                    initial = initial + word;
+                }
+                else {
+                    initial = initial + word.charAt(0) + ". ";
+                }
+                word = "";
+            }
+            return initial;
+        }else {
+            return null;
+        }
+    }
+    public static void main(String[] args) {
+        System.out.println(reverse("faliure will never overtake me if my determination to suceed is srtong enough "));
+        System.out.println("decimal number is " + binaryToDecimal("1000"));
+        System.out.println("decimal number is " + binaryToDecimal("10001"));
+        System.out.println("decimal number is " + binaryToDecimal("111111"));
+        System.out.println("initials  " + initials("James tiBeriUs kiRK "));
+    }
+}
 
-            for (int j = i + 1; j < str.length(); j++)
-            {
+
+
+
 
 
         }
