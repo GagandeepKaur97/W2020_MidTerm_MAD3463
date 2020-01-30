@@ -87,7 +87,7 @@ public class LambtonStringTools
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
         String str[]= new String[ "Lambton College in Toronto"];
-        System.out.println(str.replacefirst("college","university"));
+        System.out.println(replaceSubString.toString("college","university"));
 
         return null;
     }
