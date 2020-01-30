@@ -122,12 +122,12 @@ public class LambtonStringTools
             return null;
         }
     }
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         System.out.println(reverse("faliure will never overtake me if my determination to suceed is srtong enough "));
         System.out.println("decimal number is " + binaryToDecimal("1000"));
         System.out.println("decimal number is " + binaryToDecimal("10001"));
         System.out.println("decimal number is " + binaryToDecimal("111111"));
-        System.out.println("initials  " + initials("James tiBeriUs kiRK "));
+        System.out.println("initials  " + initials("James tiBeriUs kiRK "));*/
     }
 }
 
