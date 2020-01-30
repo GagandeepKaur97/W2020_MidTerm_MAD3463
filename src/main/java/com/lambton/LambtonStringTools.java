@@ -59,7 +59,7 @@ public class LambtonStringTools
 
             for (int j = i + 1; j < str.length(); j++)
             {
-                
+
             }
         }
         return null;
@@ -71,9 +71,9 @@ public class LambtonStringTools
         for (int i = 0; i < s.length() ; i++) {
         }
         decimal = Integer.parseInt(s,2);
-        return decimal;
+        return 0;
     }
-    public static int main(String[] args) {
+    /*public static int main(String[] args) {
         System.out.println(reverse("faliure will never overtake me if my determination to suceed is srtong enough "));
         System.out.println("decimal number is " + binaryToDecimal("1000"));
         System.out.println("decimal number is " + binaryToDecimal("10001"));
@@ -81,12 +81,13 @@ public class LambtonStringTools
    {
 
        return 0;
-    }
+    }*/
      
     //5 - REPLACING SUBSTRING WITH NEW STRING IN EXISTING STRING
     public static String replaceSubString(String originalString, String findString, String newString) 
     {
         String str[]= new String[];
+
         return null;
     }
 }
